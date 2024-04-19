@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+body {
+    margin: 0;
+    height: 125vh;
+    background-size:cover;
+    font-family: sans-serif;
+    margin-top: 0px;
+    padding: 0px;
+    background-color: #fff;
+    overflow-y: hidden;
+    
+}
+
+h1 {
+    margin-left: 20px; /* Adjust the margin as needed */
+    margin-right: 200px;
+    display: inline; /* Make the h1 display inline */
+    font-size: 185%;
+}
+
+h2 {
+    margin-top: 100px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px; 
+}
+
+main {
+    color: white;
+}
+
+header {
+    background-color: white;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    text-align: right;
+    align-items: right; 
+    padding-left: 21.5%;   
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 15px;
+
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+hr {
+    margin: 0;
+    height: 0;
+    border-top-width: 0px;
+    margin-bottom: -3.5rem;
+}
+
+
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-form {
+    background-color: #fff;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 34px;
+    width: 31%;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signup-form h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 35px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: calc(100% - 40px);
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button a{
+    text-decoration: none;
+    font-size: 13.33px;
+    color: #fff;
+}
+button:hover {
+    background-color: #555;
+}
+
+p {
+    margin-top: 20px;
+    color: #666;
+}
+
+p a {
+    color: #333;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="LOGO_fotor-202403137254.png">
+        <h1>Service Provider</h1>
+         <nav>
+             <ul>
+                 <li><a href="new_Home.html">Home</a></li>
+                 <li><a href="new_services.html">Services</a></li>
+                 <li><a href="new_aboutus.html">About Us</a></li>
+                 <li><a href="new_contact.html">Contact</a></li>
+                 
+             </ul>
+         </nav>
+     </header>
+     <hr class="dark:border-gray-500">
+
+
+
+
+
+
+
+
+
+    <div class="signup-container">
+        <div class="signup-form">
+            <h2>Sign Up</h2>
+            <form action="new_profile_home.html" method="POST">
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit"><a href="new_profile_home.html">Sign Up</a></button>
+            </form>
+            <p>Already have an account? <a href="new_login.html">Login</a></p>
+        </div>
+    </div>
+</body>
+</html>
